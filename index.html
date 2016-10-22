@@ -3,41 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>Home Page</title>
-        
-<!--
-        <style>
-            
-            li {
-                display: inline;
-                padding: 10px;
-            }
-            
-            #banner {
-                width: 100%;
-            }
-            
-            p{
-                width: 50%;
-            }
-            
-            img right1{
-                float: right;
-                margin: 0 0 10px 10px;
-            }
-            #firstImage {
-                float: right;
-                margin-top: -130px;
-            }
-            
-            #secondImage {
-
-                margin-top: 250px;
-      
-            }
-            
-            
-        </style>
--->
         <style>
             p {
                     color:black;
@@ -54,56 +19,86 @@
                 h1,h2,h3,h4,h5,h6 {
      color: #6495ED;
 }   
-            .sec_p {
+            #sec_p {
                 color:darkmagenta;
+            }
+            
+             .content {
+                width: 960px;
+                margin: 0 auto;
+               background-color: black;
+            }
+            #bottomSec {
+                
+             text-align: center;
+            }
+            
+            .leftcol {
+                margin-right: 50%;
+            }
+            
+            .rightcol {
+                margin-left: 50%;
+                margin-top: -20%;
+                
             }
         </style>
     </head>
 
     <body>
+        <div class="content">
         <nav>
         <img src="http://brothert.net/dryoar/images/dryoarlogo.png" alt="Dry Oar boating logo">
 
      
             <ul>
-                <li>Home</li>
-                <li>Latest Products</li>
-                <li>Hots Products</li>
-                <li>Phone Accessories</li>
-                <li>About Us</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="latest.html">Latest Products</a></li>
+                <li><a href="hotsProducts.html">Hots Products</a></li>
+                <li><a href="phoneAccessories.html">Phone Accessories</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
             </ul>
            
         
-                <img id="banner" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River Wide"><br><br><br>
+                <img id="banner" src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="River Wide"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
        
-        <section>
-
+        <section id="sec1">
+            <div class="leftcol">
             <h1>Little Colorado</h1>
         
             <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-         
-        <img id="firstImage" src="http://brothert.net/dryoar/images/littlecolorado.jpg" alt="Little Colorado"><br><br><br>
+         </div>
+        <div class="rightcol">
+        <img id="firstImage" src="http://brothert.net/dryoar/images/littlecolorado.jpg" alt="Little Colorado"><br><br><br><br><br>
+            </div>
         </section>
       
         
       
 
         <section id="sec2">
+            <div class="leftcol">
         <img id="secondImage" src="http://brothert.net/dryoar/images/river-narrow.jpg" alt="River narrow">
-        
-        
+        </div>
+        <div class="rightcol">
             <h1>River narrow</h1>
             <p class="sec_p">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
 
             <h1>River narrow</h1>
             <p class="sec_p">We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
-        </section>
+        </div>
+            </section>
     
        
 
-        
+        <section id="bottomSec">
         <p>&copy; 2015 Dry Oar || Chi Tze <p>
+            </section>
+             <a href="index.html"><img href="index.html" src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png"></a>
+             <a href="index.html"><img href="index.html" src="https://byui-cit.github.io/wdd100/images/icons/color/googleplus.png"></a>
+            <a href="index.html"><img src="https://byui-cit.github.io/wdd100/images/icons/color/twitter.png"></a>
              </nav>
+            </div>
     </body>
     
 </html>
