@@ -46,30 +46,30 @@
             }
             #bottomSec {
                 
-             text-align: center;
+             text-align: left;
+                height: 55px;
+                margin-top: 20px;
+                position: absolute;
             }
             
-            .leftcol {
-                
-                width: 48%;
-                line-height: 150%;
-                margin-right: auto;
-                padding: 1em;
-                
+            #socialIcon{
+                margin-top: 10px;
+                margin-left: 724px;
+        
             }
             
-            .rightcol {
-                width: 48%;
-            line-height: 150%;
-                margin-left: auto;
-                 padding: 1em;
-                margin-top: -20%;
-               
-                
-            }
+.leftcol, .rightcol {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
+
             
             li {
                 font-size: 1.1em;
+                display: inline-block;
+                text-align: center;
+                
             }
             
             
@@ -78,6 +78,15 @@
                 width: 100%;
                 
             }
+            
+            #sec1, #sec2 {
+        display: flex;
+                flex-flow: row wrap;
+            
+}  
+            img {
+    max-width: 100%;
+} 
         </style>
     </head>
 
@@ -129,9 +138,11 @@
         <section id="bottomSec">
         <p>&copy; 2015 Dry Oar || Chi Tze <p>
             </section>
+            <div id="socialIcon">
              <a href="index.html"><img href="index.html" src="https://byui-cit.github.io/wdd100/images/icons/color/facebook.png"></a>
              <a href="index.html"><img href="index.html" src="https://byui-cit.github.io/wdd100/images/icons/color/googleplus.png"></a>
             <a href="index.html"><img src="https://byui-cit.github.io/wdd100/images/icons/color/twitter.png"></a>
+                </div>
              </nav>
             </div>
     </body>
