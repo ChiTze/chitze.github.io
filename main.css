@@ -5,11 +5,36 @@ p {
 
 nav {
     background-color: salmon;
-    font-size: 1.1em;
+    font-size: 1.2em;
     line-height: 3em;
     font-family: 'Indie Flower', cursive;
+    margin-top: -8%;
+    
+    
 }
 
+nav li{
+    display: inline-block;
+    
+    
+}
+
+.logo{
+    background-color: white;
+    width: 10%;
+    position: relative;
+    border-style: solid;
+}
+
+a:hover { color: green; }
+
+header > img{
+    background-color: transparent;
+    position:relative;
+    
+}
+
+ nav ul { margin: 0; }
 #sec2 {
     background-color: beige;
 }
@@ -37,7 +62,7 @@ p #sec_p {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    background-color: black;
+    background-color: white;
 }
 
 #bottomSec {
@@ -59,15 +84,7 @@ p #sec_p {
     margin: .5em;
 }
 
-nav > ul {
-    background-color: aqua;
-    text-align: center;
-}
-li {
-    font-size: 1.1em;
-    display: inline-block;
 
-}
 
 #banner {
     width: 100%;
