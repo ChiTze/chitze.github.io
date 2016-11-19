@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+p {
+    color: black;
+}
+
+nav {
+    background-color: salmon;
+    font-size: 1.1em;
+    line-height: 3em;
+    font-family: 'Indie Flower', cursive;
+}
+
+#sec2 {
+    background-color: beige;
+}
+
+#sec1 {
+    background-color: greenyellow;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 0%;
+    font-family: "Times New Roman", Times, serif;
+    color: #6495ED;
+}
+
+p #sec_p {
+    color: darkmagenta;
+}
+
+.content {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#bottomSec {
+    text-align: left;
+    height: 55px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+#socialIcon {
+    margin-top: 10px;
+    margin-left: 724px;
+}
+
+.leftcol,
+.rightcol {
+    width: 48%;
+    flex: 1 0 15em;
+    margin: .5em;
+}
+
+nav > ul {
+    background-color: aqua;
+    text-align: center;
+}
+li {
+    font-size: 1.1em;
+    display: inline-block;
+
+}
+
+#banner {
+    width: 100%;
+}
+
+#sec1,
+#sec2 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+img {
+    max-width: 100%;
+}
