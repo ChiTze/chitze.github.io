@@ -9,32 +9,42 @@ nav {
     line-height: 3em;
     font-family: 'Indie Flower', cursive;
     margin-top: -8%;
-    
-    
+    text-align: center;
 }
 
-nav li{
+nav a {
+    padding: 1em .6em
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+nav li {
     display: inline-block;
-    
-    
 }
 
-.logo{
+.logo {
     background-color: white;
     width: 10%;
     position: relative;
     border-style: solid;
+    margin-left: 3%;
 }
 
-a:hover { color: green; }
+a:hover {
+    color: green;
+}
 
-header > img{
+header > img {
     background-color: transparent;
-    position:relative;
-    
+    position: relative;
 }
 
- nav ul { margin: 0; }
+nav ul {
+    margin: 0;
+}
+
 #sec2 {
     background-color: beige;
 }
@@ -83,8 +93,6 @@ p #sec_p {
     flex: 1 0 15em;
     margin: .5em;
 }
-
-
 
 #banner {
     width: 100%;
