@@ -1,6 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 p {
+    font-family: "Times New Roman", Times, serif;
     color: black;
+    font-weight: bold
+}
+
+.river_title {
+    font-size: 2em;
+    color: orangered;
+   text-align: center;
+ 
+}
+
+.faq_content {
+    margin-top: -3%;
+    background-color: bisque;
+}
+
+.river_image {
+    width: 250px;
+    height: 180px;
+    background-color: green;
+    float: left;
+}
+
+.river_p {
+    width: 100%;
+    height: 350px;
+    
+    font-size: 120%;
+    text-align: left;
+}
+
+.error_message {
+    color: red;
+    font-size: 3em;
+}
+
+.rivers_content {
+    background-color: bisque;
 }
 
 nav {
@@ -59,7 +97,7 @@ h3,
 h4,
 h5,
 h6 {
-    line-height: 0%;
+    line-height: 100%;
     font-family: "Times New Roman", Times, serif;
     color: #6495ED;
 }
@@ -72,7 +110,6 @@ p #sec_p {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    background-color: white;
 }
 
 #bottomSec {
